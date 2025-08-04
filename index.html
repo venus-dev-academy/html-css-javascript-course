@@ -1,15 +1,131 @@
 <!DOCTYPE html>
-    <head>
-        
-    </head>
-    <body>
-        <nav>
-            <a href="table.html">Table</a>
-        </nav>
-        <div>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales sapien ligula, vel placerat ex interdum ut. Sed eget arcu nisi. Ut non massa et elit rutrum venenatis sit amet ut nisi. Fusce quis dapibus dolor. Donec aliquet eu felis tempor dignissim. Suspendisse maximus ligula eget sapien placerat vulputate. Vestibulum eget urna congue justo volutpat viverra. Aliquam feugiat ex quis eleifend semper. Integer maximus, lorem ac imperdiet ullamcorper, sem mauris placerat massa, quis fringilla neque elit sed mauris.
-            </p>
-        </div>
-    </body>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>آموزش پایه HTML برای جلسه اول</title>
+  <style>
+    body {
+      font-family: Tahoma, sans-serif;
+      direction: rtl;
+      background-color: #f5f5f5;
+      padding: 20px;
+      line-height: 1.8;
+    }
+
+    .box {
+      background-color: white;
+      border: 2px solid #ccc;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+
+    .box h2 {
+      color: #333;
+      border-bottom: 1px dashed #aaa;
+      padding-bottom: 10px;
+    }
+
+    .example {
+      background-color: #f0f0f0;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 6px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    table, th, td {
+      border: 1px solid #aaa;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    code {
+      background-color: #eee;
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- هدینگ‌ها -->
+  <div class="box">
+    <h2>📌 تگ‌های عنوان (Heading Tags)</h2>
+    <p>تگ‌های <code>h1</code> تا <code>h6</code> برای نوشتن عنوان‌ها در صفحات HTML استفاده می‌شن. <code>h1</code> بزرگ‌ترین و <code>h6</code> کوچک‌ترین عنوان است.</p>
+    
+    <div class="example">
+      <h1>این یک h1 است - عنوان اصلی</h1>
+      <h2>این یک h2 است - زیرعنوان</h2>
+      <h3>این یک h3 است - تیتر بخش</h3>
+      <h4>این یک h4 است - تیتر فرعی</h4>
+      <h5>این یک h5 است - عنوان کوچک</h5>
+      <h6>این یک h6 است - کوچک‌ترین عنوان</h6>
+    </div>
+  </div>
+
+  <!-- پاراگراف -->
+  <div class="box">
+    <h2>📌 تگ <code>&lt;p&gt;</code> - پاراگراف</h2>
+    <p>برای نوشتن متن‌های معمولی و پاراگراف‌ها از تگ <code>p</code> استفاده می‌کنیم.</p>
+    <div class="example">
+      <p>این یک پاراگراف نمونه است که داخل تگ &lt;p&gt; نوشته شده. ما از این تگ برای نوشتن متن‌های طولانی استفاده می‌کنیم.</p>
+    </div>
+  </div>
+
+  <!-- div -->
+  <div class="box">
+    <h2>📌 تگ <code>&lt;div&gt;</code> - بخش‌بندی</h2>
+    <p>تگ <code>div</code> یک ظرف عمومی است. معمولاً برای گروه‌بندی محتوا و استفاده از CSS روی چند بخش با هم به کار می‌ره.</p>
+    <div class="example">
+      <div style="background-color: #d0f0ff; padding: 15px;">
+        من داخل یک تگ div هستم که بک‌گراند و پدینگ دارد.
+      </div>
+    </div>
+  </div>
+
+  <!-- span -->
+  <div class="box">
+    <h2>📌 تگ <code>&lt;span&gt;</code> - درون‌خطی</h2>
+    <p>تگ <code>span</code> برای گرفتن یک قسمت کوچک از متن به‌کار می‌ره. مثلاً برای رنگ دادن به یک کلمه یا استایل خاص.</p>
+    <div class="example">
+      <p>سلام <span style="color: red;">دوست خوبم</span> خوش آمدی!</p>
+    </div>
+  </div>
+
+  <!-- table -->
+  <div class="box">
+    <h2>📌 تگ <code>&lt;table&gt;</code> - جدول</h2>
+    <p>برای نمایش داده‌ها به‌صورت جدولی از تگ <code>table</code> استفاده می‌کنیم. هر جدول شامل ردیف‌ها (<code>tr</code>) و سلول‌ها (<code>td</code> / <code>th</code>) است.</p>
+    <div class="example">
+      <table>
+        <tr>
+          <th>نام</th>
+          <th>سن</th>
+          <th>شهر</th>
+        </tr>
+        <tr>
+          <td>علی</td>
+          <td>۱۲</td>
+          <td>تهران</td>
+        </tr>
+        <tr>
+          <td>نگار</td>
+          <td>۱۳</td>
+          <td>اصفهان</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+</body>
 </html>
