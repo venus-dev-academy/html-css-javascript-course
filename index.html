@@ -2,21 +2,56 @@
 <html>
     <head>
         <style>
-           #main-header {
-            color: red;
-            text-align: center;
-           }
-           .main-header {
-            color: pink;
-           }
+            .div-tag {
+                margin: 36px;
+                background-color: aquamarine;
+            }
+            .second-tag {
+                padding: 36px;
+                background-color: bisque;
+            }
+            .table {
+                margin-top: 50px;
+                background-color: rgb(195, 192, 255);
+            }
+            .table td, .table th {
+                width: 200px;
+                text-align: center;
+            }
         </style>
     </head>
     <body>
-        <h1 id="main-header" class="main-header">This is the most important heading (h1)</h1>
-        <h2 class="main-header">This is a very important heading (h2)</h2>
-        <h3 class="main-header">This is an important subsection heading (h3)</h3>
-        <h4 class="main-header">This is a less important heading (h4)</h4>
-        <h5 class="main-header">This is a minor heading (h5)</h5>
-        <h6 class="main-header">This is the least important heading (h6)</h6>
+       This is main Page.
+       <br />
+       <a href="header.html">This page is about headers.</a>
+       <div class="div-tag">This is a div tag.</div>
+       <div class="second-tag">This is second div tag.</div>
+       <p style="margin: 0;">This is a paragraph tag.</p>
+       
+       <table class="table">
+            <thead>
+                <tr>
+                    <th>Row</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Tom Doe</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td></td>
+                    <td>20</td>
+                </tr>
+            </tbody>
+       </table>
     </body>
 </html>
