@@ -1,5 +1,6 @@
+# HTML, CSS & JavaScript Tutorial for Beginners
 
-## 📘 How to Use (English)
+## 📘 How to Use
 
 To get started:
 
@@ -11,9 +12,9 @@ This guide is beginner-friendly and will walk you step by step through the funda
 
 ---
 
-# آموزش HTML, CSS, JavaScript
+# آموزش HTML, CSS, JavaScript برای مبتدیان
 
-## 🧾 راهنمای استفاده (فارسی)
+## 🧾 راهنمای استفاده
 
 برای شروع:
 
